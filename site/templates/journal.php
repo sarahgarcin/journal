@@ -21,9 +21,11 @@
   		</div>
 		</div>
 		<?php $image = $page->images()->first();?>
-		<div class="big-image" data-image="<?php echo $image->url()?>">
-  		<img src="<?php echo $image->crop(1000, 1500)->url()?>" alt="<?php echo $page->title()?>">
-  	</div>
+    <div class="img-wrapper">
+  		<div class="big-image vertical-align" data-image="<?php echo $image->url()?>">
+    		<img src="<?php echo $image->crop(1000)->url()?>" alt="<?php echo $page->title()?>">
+    	</div>
+    </div>
 </main>
 
 <?php snippet('footer') ?>

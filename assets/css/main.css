@@ -6802,20 +6802,30 @@ p, li {
 li {
   list-style: none; }
 
+figure {
+  width: 80%;
+  margin: 1cm auto; }
+
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  width: 100%; }
 
 .page {
-  width: 21cm;
+  width: 29.7cm;
   background-color: #FFF;
   margin: 30px auto; }
-  .page .big-image {
-    width: 21cm;
-    height: 29.7cm; }
+  .page .img-wrapper {
+    width: 29.7cm;
+    height: 42cm; }
+    .page .img-wrapper .big-image {
+      width: 14.85cm;
+      margin: auto;
+      margin-top: -5cm; }
   .page .marge {
-    width: 17cm;
+    width: 23.7cm;
     margin: auto; }
     .page .marge header {
+      padding-top: 1cm;
       margin-bottom: 100px; }
       .page .marge header h1 {
         font-family: 'reglo';
@@ -6842,11 +6852,11 @@ img {
           font-family: 'reglo';
           text-transform: uppercase;
           letter-spacing: 0.1em;
-          font-size: 11pt;
+          font-size: 13pt;
           margin-top: 50px; }
         .page .marge .content .article p {
-          font-size: 11pt;
-          text-indent: 2cm; }
+          font-size: 13pt;
+          text-indent: 2.1cm; }
 
 .vertical-align {
   position: relative;
@@ -6857,22 +6867,23 @@ img {
 
 @media print {
   @page {
-    margin-top: 2cm; }
+    margin-top: 2cm;
+    margin-bottom: 2cm; }
   @page :first {
     margin-top: 1cm; }
   @page :last {
+    margin-top: 10cm;
     margin: 0 !important;
     padding: 0 !important; }
   h2 {
     page-break-after: avoid;
-    page-break-inside: avoid; }
+    page-break-inside: avoid;
+    page-break: none; }
   p {
     page-break-inside: avoid;
     page-break-before: avoid; }
   img {
     page-break-inside: avoid; }
-  .big-image {
+  .img-wrapper {
     page-break-before: always;
-    left: 0;
-    top: 0;
-    height: 21cm; } }
+    margin-top: -2cm; } }

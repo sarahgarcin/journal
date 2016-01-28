@@ -19,18 +19,20 @@ a{color: $blue;
 p,li{font-size:$h3size; }
 li{list-style: none;}
 
-img{max-width:100%;}
+figure{width:80%; margin:1cm auto;}
+img{max-width:100%;width:100%;}
 
 .page{
 	width: $pageW;
 	background-color: #FFF;
 	margin: 30px auto;
-	.big-image{
-		width:$pageW;
+	.img-wrapper{
+		width: $pageW;
 		height:$pageH;
-		// border: 3px solid #000;
-		img{
-
+		.big-image{
+			width: $pageW/2;
+			margin:auto;
+			margin-top: -5cm;
 		}
 	}
 	.marge{
@@ -38,6 +40,7 @@ img{max-width:100%;}
 		margin: auto;
 		//border: 1px solid #0002FF ;
 		header{
+			padding-top: 1cm;
 			margin-bottom: 100px;
 			h1{
 				font-family: 'reglo';
@@ -69,17 +72,19 @@ img{max-width:100%;}
 					font-family: 'reglo';
 					text-transform: uppercase;
 					letter-spacing: 0.1em;
-					font-size: 11pt;
+					font-size: 13pt;
 					margin-top: 50px;
 				}
 				p{
-					font-size: 11pt;
-					text-indent: 2cm;
+					font-size: 13pt;
+					text-indent: 2.1cm;
 				}
 			}
 		}
 	}
 }
+
+
 
 //HELPERS
 .vertical-align {
@@ -94,11 +99,13 @@ img{max-width:100%;}
 	
 	@page {
 		margin-top: 2cm;
+		margin-bottom: 2cm;
 	}
 	@page:first{
 		margin-top: 1cm;
 	}
 	@page:last{
+		margin-top: 10cm;
 		margin: 0 !important; padding: 0 !important; 
 	}
 
@@ -114,10 +121,11 @@ img{max-width:100%;}
   img{
   	page-break-inside: avoid;
   }
-  .big-image{
+  .img-wrapper{
   	page-break-before: always;
-  	left:0; top:0; 
-  	height:21cm;
+  	margin-top: - 2cm;
+  	// left:0; top:0; 
+  	// height:$pageH;
   }
 
 
