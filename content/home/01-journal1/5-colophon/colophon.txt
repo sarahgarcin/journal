@@ -1,0 +1,5 @@
+Title: Colophon
+
+----
+
+Text: Phasellus lacinia vulputate erat et rhoncus. Suspendisse potenti. Integer nec laoreet purus. Mauris luctus libero quis consectetur porttitor. Fusce blandit eros eu nisl vehicula, vitae interdum nulla laoreet. Proin suscipit arcu purus, et convallis velit pharetra iaculis. Nam turpis eros, molestie id mattis id, semper sed magna. Nulla facilisi.

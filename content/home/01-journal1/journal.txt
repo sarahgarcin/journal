@@ -1,0 +1,14 @@
+Title: Titre du journal
+
+----
+
+jour: Jour 01
+
+----
+
+date: 08/02/2016
+
+----
+
+authors: Sophie Krier & Ed Van Hinte
+

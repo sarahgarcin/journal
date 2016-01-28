@@ -1,0 +1,101 @@
+// Allows the use of rem-calc() or lower-bound() in your settings
+@import '../../bower_components/foundation/scss/foundation/functions';
+
+$include-html-classes: true;
+$include-html-global-classes: $include-html-classes;
+
+$pageW : 21cm;
+$pageH : 29.7cm;
+$margin: 4cm;
+
+//COLOR
+//GRADIENT COLOR
+$blue: #0070FF;
+$green:#0EFF00;
+$orange:#FF7700;
+$magenta:#FF00D7;
+$yellow:#FFE600;
+
+// TOP BAR
+$topbar-height: rem-calc(45);
+
+// b. Grid
+// - - - - - - - - - - - - - - - - - - - - - - - - -
+
+$row-width: 100%;
+
+// TYPO
+$h1size: rem-calc(20);
+$h2size: rem-calc(16);
+$h3size: rem-calc(14);
+$h3height: rem-calc(18);
+$psize: rem-calc(12);
+$pheight: rem-calc(16);
+
+
+@font-face {
+    font-family: 'interval';
+    src: url('../fonts/interval_bold_slanted-webfont.eot');
+    src: url('../fonts/interval_bold_slanted-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interval_bold_slanted-webfont.woff2') format('woff2'),
+         url('../fonts/interval_bold_slanted-webfont.woff') format('woff'),
+         url('../fonts/interval_bold_slanted-webfont.ttf') format('truetype'),
+         url('../fonts/interval_bold_slanted-webfont.svg#intervalbold_slanted') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'interval';
+    src: url('../fonts/interval_bold-webfont.eot');
+    src: url('../fonts/interval_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interval_bold-webfont.woff2') format('woff2'),
+         url('../fonts/interval_bold-webfont.woff') format('woff'),
+         url('../fonts/interval_bold-webfont.ttf') format('truetype'),
+         url('../fonts/interval_bold-webfont.svg#intervalbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'interval';
+    src: url('../fonts/interval_slanted-webfont.eot');
+    src: url('../fonts/interval_slanted-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interval_slanted-webfont.woff2') format('woff2'),
+         url('../fonts/interval_slanted-webfont.woff') format('woff'),
+         url('../fonts/interval_slanted-webfont.ttf') format('truetype'),
+         url('../fonts/interval_slanted-webfont.svg#intervalslanted') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'interval';
+    src: url('../fonts/interval-webfont.eot');
+    src: url('../fonts/interval-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interval-webfont.woff2') format('woff2'),
+         url('../fonts/interval-webfont.woff') format('woff'),
+         url('../fonts/interval-webfont.ttf') format('truetype'),
+         url('../fonts/interval-webfont.svg#intervalbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'reglo';
+    src: url('../fonts/reglo/reglo-bold-webfont.eot');
+    src: url('../fonts/reglo/reglo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/reglo/reglo-bold-webfont.woff2') format('woff2'),
+         url('../fonts/reglo/reglo-bold-webfont.woff') format('woff'),
+         url('../fonts/reglo/reglo-bold-webfont.ttf') format('truetype'),
+         url('../fonts/reglo/reglo-bold-webfont.svg#reglobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

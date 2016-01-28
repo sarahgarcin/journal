@@ -1,0 +1,14 @@
+{
+  "name": "Plainkit",
+  "description": "plainkit foundation",
+  "authors": [
+    " "
+  ],
+  "private": true,
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "font-awesome": "fontawesome#~4.4.0",
+    "foundation": "~5.5.3",
+    "velocity": "~1.2.3"
+  }
+}

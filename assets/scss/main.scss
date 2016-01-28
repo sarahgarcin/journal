@@ -1,0 +1,128 @@
+// I M P O R T
+@import "_variables.scss";
+@import "../../bower_components/foundation/scss/foundation.scss";
+@import "../../bower_components/foundation/scss/normalize.scss";
+
+body{
+	width: 100%;
+	margin:0;
+	background-color: #373537;
+	font-family: 'interval', monospace;
+	font-weight:normal;
+}
+
+h1,h2,h3,h4,h5,h6,p,li{font-family:'interval', monospace;}
+ul{margin:0;}
+a{color: $blue;
+&:hover{color:$blue; text-decoration:underline;}
+}
+p,li{font-size:$h3size; }
+li{list-style: none;}
+
+img{max-width:100%;}
+
+.page{
+	width: $pageW;
+	background-color: #FFF;
+	margin: 30px auto;
+	.big-image{
+		width:$pageW;
+		height:$pageH;
+		// border: 3px solid #000;
+		img{
+
+		}
+	}
+	.marge{
+		width:$pageW - $margin ;
+		margin: auto;
+		//border: 1px solid #0002FF ;
+		header{
+			margin-bottom: 100px;
+			h1{
+				font-family: 'reglo';
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				display: inline-block;
+				margin:0;
+			}
+			.date{
+				text-align:right;
+				h3{
+					font-size: 1.1em;
+					margin:0;
+				}
+			}
+			.authors{
+				font-family: 'reglo';
+				text-transform: uppercase;
+				letter-spacing: 0.1em;
+				font-size: 1.2em;
+			}
+		}
+		.content{
+			margin: auto;
+			.article{
+				width:100%;
+				margin-bottom: 40px; 
+				h2{
+					font-family: 'reglo';
+					text-transform: uppercase;
+					letter-spacing: 0.1em;
+					font-size: 11pt;
+					margin-top: 50px;
+				}
+				p{
+					font-size: 11pt;
+					text-indent: 2cm;
+				}
+			}
+		}
+	}
+}
+
+//HELPERS
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media print {
+	
+	@page {
+		margin-top: 2cm;
+	}
+	@page:first{
+		margin-top: 1cm;
+	}
+	@page:last{
+		margin: 0 !important; padding: 0 !important; 
+	}
+
+	h2 { 
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    page-break:none;
+  }
+  p{
+  	page-break-inside: avoid;
+  	page-break-before: avoid;
+  }
+  img{
+  	page-break-inside: avoid;
+  }
+  .big-image{
+  	page-break-before: always;
+  	left:0; top:0; 
+  	height:21cm;
+  }
+
+
+}
+
+
+
+
