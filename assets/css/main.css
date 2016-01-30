@@ -6787,6 +6787,16 @@ body {
 h1, h2, h3, h4, h5, h6, p, li {
   font-family: 'interval', monospace; }
 
+h1 {
+  font-size: 15pt; }
+
+h2 {
+  font-size: 13pt; }
+
+h3, h4, h5 {
+  font-size: 9pt;
+  font-weight: bold; }
+
 ul {
   margin: 0; }
 
@@ -6797,7 +6807,7 @@ a {
     text-decoration: underline; }
 
 p, li {
-  font-size: 0.875rem; }
+  font-size: 9pt; }
 
 li {
   list-style: none; }
@@ -6810,53 +6820,85 @@ img {
   max-width: 100%;
   width: 100%; }
 
-.page {
-  width: 29.7cm;
-  background-color: #FFF;
-  margin: 30px auto; }
-  .page .img-wrapper {
-    width: 29.7cm;
-    height: 42cm; }
-    .page .img-wrapper .big-image {
-      width: 14.85cm;
-      margin: auto;
-      margin-top: -5cm; }
-  .page .marge {
-    width: 23.7cm;
-    margin: auto; }
-    .page .marge header {
-      padding-top: 1cm;
-      margin-bottom: 100px; }
-      .page .marge header h1 {
-        font-family: 'reglo';
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        display: inline-block;
-        margin: 0; }
-      .page .marge header .date {
-        text-align: right; }
-        .page .marge header .date h3 {
-          font-size: 1.1em;
-          margin: 0; }
-      .page .marge header .authors {
-        font-family: 'reglo';
-        text-transform: uppercase;
-        letter-spacing: 0.1em;
-        font-size: 1.2em; }
-    .page .marge .content {
-      margin: auto; }
-      .page .marge .content .article {
-        width: 100%;
-        margin-bottom: 40px; }
-        .page .marge .content .article h2 {
-          font-family: 'reglo';
-          text-transform: uppercase;
-          letter-spacing: 0.1em;
-          font-size: 13pt;
-          margin-top: 50px; }
-        .page .marge .content .article p {
-          font-size: 13pt;
-          text-indent: 2.1cm; }
+.journal {
+  width: 42cm;
+  margin: auto; }
+  .journal .double-page {
+    width: 100%;
+    height: 29.7cm;
+    background-color: #FFF;
+    border: 1px solid #000;
+    margin: 100px 0px;
+    position: relative; }
+    .journal .double-page .page {
+      width: 50%;
+      height: 100%;
+      display: inline-block;
+      padding: 1.2cm; }
+      .journal .double-page .page:first-child {
+        border-right: 1px solid #000; }
+      .journal .double-page .page:last-child {
+        border-left: 1px solid #000; }
+      .journal .double-page .page.absolute {
+        position: absolute;
+        top: 0;
+        left: 50%; }
+
+.programme.middle {
+  height: 29.7cm;
+  padding: 1.2cm;
+  column-count: 4;
+  -moz-column-count: 4;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 50px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 50px;
+  /* Firefox */
+  column-gap: 50px; }
+  .programme.middle h1 {
+    margin-top: 0;
+    -webkit-column-span: all;
+    /* Chrome, Safari, Opera */
+    column-span: all; }
+
+.programme.last {
+  column-count: 2;
+  -moz-column-count: 2;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 50px;
+  /* Chrome, Safari, Opera */
+  -moz-column-gap: 50px;
+  /* Firefox */
+  column-gap: 50px; }
+  .programme.last h1 {
+    margin-top: 0;
+    -webkit-column-span: all;
+    /* Chrome, Safari, Opera */
+    column-span: all; }
+
+.images .image-item {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top; }
+  .images .image-item.w1 {
+    width: 48%; }
+  .images .image-item.w2 {
+    width: 30%; }
+  .images .image-item.w3 {
+    width: 20%; }
+
+.ressources .ressource-item {
+  width: 47%;
+  display: inline-block;
+  vertical-align: top;
+  border: 3px solid #000; }
+  .ressources .ressource-item p {
+    padding: 3px 20px; }
+  .ressources .ressource-item h2 {
+    border-bottom: 3px solid #000;
+    padding: 10px 20px; }
+  .ressources .ressource-item:first-child {
+    margin-right: 20px; }
 
 .vertical-align {
   position: relative;
@@ -6867,15 +6909,16 @@ img {
 
 @media print {
   @page {
-    margin-top: 2cm;
-    margin-bottom: 2cm; }
+    margin: 0cm;
+    margin-top: 0cm;
+    margin-bottom: 0cm; }
   @page :first {
-    margin-top: 1cm; }
+    margin-top: 0cm; }
   @page :last {
-    margin-top: 10cm;
+    margin-top: 0cm;
     margin: 0 !important;
     padding: 0 !important; }
-  h2 {
+  h1, h2, h3, h4, h5, h6 {
     page-break-after: avoid;
     page-break-inside: avoid;
     page-break: none; }
@@ -6885,5 +6928,6 @@ img {
   img {
     page-break-inside: avoid; }
   .img-wrapper {
-    page-break-before: always;
-    margin-top: -2cm; } }
+    page-break-before: always; }
+  .journal .double-page {
+    margin: 0; } }

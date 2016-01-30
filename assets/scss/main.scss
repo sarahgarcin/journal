@@ -12,77 +12,188 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6,p,li{font-family:'interval', monospace;}
+h1{font-size:15pt;}
+h2{font-size:13pt;}
+h3,h4,h5{font-size:9pt; font-weight:bold;}
 ul{margin:0;}
 a{color: $blue;
 &:hover{color:$blue; text-decoration:underline;}
 }
-p,li{font-size:$h3size; }
+p,li{font-size:9pt; }
 li{list-style: none;}
 
 figure{width:80%; margin:1cm auto;}
 img{max-width:100%;width:100%;}
 
-.page{
+.journal{
 	width: $pageW;
-	background-color: #FFF;
-	margin: 30px auto;
-	.img-wrapper{
-		width: $pageW;
-		height:$pageH;
-		.big-image{
-			width: $pageW/2;
-			margin:auto;
-			margin-top: -5cm;
-		}
-	}
-	.marge{
-		width:$pageW - $margin ;
-		margin: auto;
-		//border: 1px solid #0002FF ;
-		header{
-			padding-top: 1cm;
-			margin-bottom: 100px;
-			h1{
-				font-family: 'reglo';
-				text-transform: uppercase;
-				letter-spacing: 0.1em;
-				display: inline-block;
-				margin:0;
+	margin: auto;
+	.double-page{
+		width:100%;
+		height: $pageH;
+		background-color: #FFF;
+		border: 1px solid #000;
+		margin: 100px 0px;
+		position:relative;
+		.page{
+			width: 50%;
+			height:100%;
+			display:inline-block;
+			padding: $margin;
+			&:first-child{
+				border-right:1px solid #000;
 			}
-			.date{
-				text-align:right;
-				h3{
-					font-size: 1.1em;
-					margin:0;
-				}
+			&:last-child{
+				border-left:1px solid #000;
 			}
-			.authors{
-				font-family: 'reglo';
-				text-transform: uppercase;
-				letter-spacing: 0.1em;
-				font-size: 1.2em;
-			}
-		}
-		.content{
-			margin: auto;
-			.article{
-				width:100%;
-				margin-bottom: 40px; 
-				h2{
-					font-family: 'reglo';
-					text-transform: uppercase;
-					letter-spacing: 0.1em;
-					font-size: 13pt;
-					margin-top: 50px;
-				}
-				p{
-					font-size: 13pt;
-					text-indent: 2.1cm;
-				}
+			&.absolute{
+				position:absolute;
+				top:0;
+				left:50%;
 			}
 		}
 	}
 }
+
+.programme{
+	&.middle{
+		height: $pageH;
+		padding: $margin;
+		column-count:4;
+		-moz-column-count:4;
+		-webkit-column-count: 4;
+		-webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 50px; /* Firefox */
+    column-gap: 50px;
+    h1{
+    	margin-top:0;
+    	-webkit-column-span: all; /* Chrome, Safari, Opera */
+    	column-span: all;
+    }
+	}
+
+	&.last{
+		column-count:2;
+		-moz-column-count:2;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+	  -moz-column-gap: 50px; /* Firefox */
+	  column-gap: 50px;
+	  h1{
+	  	margin-top:0;
+	  	-webkit-column-span: all; /* Chrome, Safari, Opera */
+	  	column-span: all;
+	  }
+	}
+}
+
+.images {
+  .image-item {
+  	display:inline-block;
+	  width: 20%;
+	  vertical-align: top;
+	  &.w1{
+			width: 48%;
+	  }
+	  &.w2{
+			width: 30%;
+	  }
+	  &.w3{
+			width: 20%;
+	  }
+	}
+}
+
+.ressources{
+	.ressource-item{
+		width: 47%;
+		display:inline-block;
+		vertical-align: top;
+		border: 3px solid #000;
+		p{
+			padding: 3px 20px;
+		}
+		h2{
+			border-bottom: 3px solid #000;
+			padding: 10px 20px;
+		}
+		&:first-child{		margin-right:20px;}
+
+	}
+}
+
+// .page{
+// 	width: $pageW;
+// 	background-color: #FFF;
+// 	margin: 30px auto;
+// 	position:relative;
+// 	.img-wrapper{
+// 		width: $pageW;
+// 		height:$pageH;
+// 		.big-image{
+// 			width: $pageW/2;
+// 			margin:auto;
+// 			margin-top: -5cm;
+// 		}
+// 	}
+// 	// .page-left, .page-right{
+// 	// 	position:fixed;
+// 	// 	height:$pageH;
+// 	// 	width: 50%;
+// 	// 	border: 1px solid #000;
+// 	// 	top:30px;
+// 	// 	z-index: 1000;
+// 	// }
+// 	// .page-left{left:0;}
+// 	// .page-right{right:0;}
+// 	.marge{
+// 		width:$pageW - $margin ;
+// 		margin: auto;
+// 		//border: 1px solid #0002FF ;
+// 		header{
+// 			padding-top: 1cm;
+// 			margin-bottom: 100px;
+// 			h1{
+// 				font-family: 'reglo';
+// 				text-transform: uppercase;
+// 				letter-spacing: 0.1em;
+// 				display: inline-block;
+// 				margin:0;
+// 			}
+// 			.date{
+// 				text-align:right;
+// 				h3{
+// 					font-size: 1.1em;
+// 					margin:0;
+// 				}
+// 			}
+// 			.authors{
+// 				font-family: 'reglo';
+// 				text-transform: uppercase;
+// 				letter-spacing: 0.1em;
+// 				font-size: 1.2em;
+// 			}
+// 		}
+// 		.content{
+// 			margin: auto;
+// 			.article{
+// 				width:100%;
+// 				margin-bottom: 20px; 
+// 				h2{
+// 					font-family: 'reglo';
+// 					text-transform: uppercase;
+// 					letter-spacing: 0.1em;
+// 					font-size: 13pt;
+// 					margin-top: 50px;
+// 				}
+// 				p{
+// 					font-size: 13pt;
+// 					text-indent: 2.1cm;
+// 				}
+// 			}
+// 		}
+// 	}
+// }
 
 
 
@@ -98,18 +209,19 @@ img{max-width:100%;width:100%;}
 @media print {
 	
 	@page {
-		margin-top: 2cm;
-		margin-bottom: 2cm;
+		margin:0cm;
+		margin-top: 0cm;
+		margin-bottom: 0cm;
 	}
 	@page:first{
-		margin-top: 1cm;
+		margin-top: 0cm;
 	}
 	@page:last{
-		margin-top: 10cm;
+		margin-top: 0cm;
 		margin: 0 !important; padding: 0 !important; 
 	}
 
-	h2 { 
+	h1,h2,h3,h4,h5,h6 { 
     page-break-after: avoid;
     page-break-inside: avoid;
     page-break:none;
@@ -123,9 +235,15 @@ img{max-width:100%;width:100%;}
   }
   .img-wrapper{
   	page-break-before: always;
-  	margin-top: - 2cm;
+  	//margin-top: - 2cm;
   	// left:0; top:0; 
   	// height:$pageH;
+  }
+
+  .journal{
+  	.double-page{
+  		margin:0;
+  	}
   }
 
 

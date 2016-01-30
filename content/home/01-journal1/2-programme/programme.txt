@@ -1,0 +1,44 @@
+Title: Programme
+
+----
+
+Middle: 
+
+### 09:30 Lancement des deux ateliers à la semaine réservés aux étudiants / Launch of the two week-long workshops reserved for students 
+## Workshop 1 | In Time and Place: New technologies for local resources
+This english speaking workshop will explore the potential of “Transition Design” in the neighbourhood of Montreuil; a design that “focusses on the need for cosmopolitan localism, a lifestyle that is place-based and regional, yet global in it’s awareness and exchange of information and technologies.” In collaboration with the Écofablab of Montreuil, we will design solutions for the needs of the neighbourhood, researching local waste materials and economies; envisioning the Ecofablab, and digital technologies, as production means for our prototypes. In collaboration with (link: http://www.apedec.org text: Apedec), the Ecofablab of Montreuil.
+Guided by: 
+### Eugenia Morpurgo
+Eugenia Morpurgo is an italian designer researching new production proceses and working in the field of Digital Crafts. In 2009 she graduated at the Industrial design course of the IUAV University of Venice. After she moved to The Netherland to attend the master in Social Design at the Design Academy Eindhoven. Parallel to her studies, she took part to the research program on craft and development Atelier Rwanda, based in Kigali, Rwanda.
+Since september 2014 she is Lecturer of Production Technologies and Systems at Free University of Bozen - Bolzano, Italy. Currently she lives in Paris and works as an independent designer on social design and research project, commisioned by several cultural institutions, leading workshops in the international network of Fablabs. 
+(image: 02-dont-run-beta-allshoes.jpg)
+## Workshop 2 | En Temps et Lieu : Architectures transitoires
+Atelier en français avec pour objet la construction grandeur nature d'architectures transitoires (habitats temporaires). L'atelier aura lieu in situ, 24/24 à La Générale (11e arrondissement). « Une architecture transitoire est un logement fixe destiné à être habité durant une période restreinte puis abandonné. Elle se dissocie des modules nomades tels que les yourtes, caravanes, baraquements militaires, etc. en cela qu’elle n’est pas transportée d’un point à un autre par ses habitants mais construite sur le site avec les ressources qui lui sont associées. (…) Il s’agit d’observer en bâtissant. A chaque nouvelle implantation, l’expérience et la faculté de saisir toutes les opportunités sont les seuls bagages nécessaires. » – Laurent Tixador (FR), artiste et activiste, est à l'initiative de 'Architectures Transitoires', une recherche in situ et participative qui se décline à long terme, au cours de stages intensifs attirant des personnes diverses aux intérêts communs. Cet atelier s'inscrira dans la durée de la semaine, afin de se laisser porter par le temps et par les matériaux, les découvertes et les opportunités; le temps devient ici paramètre de production. Qu'est-ce qu'un logement imaginé, vécu, construit et démonté en l’espace de cinq jours? En partenariat avec: (link: http://www.lagenerale.fr/ text: La Générale).
+Guidé par:
+### Laurent Tixador
+Laurent Tixador est né en 1965 à Colmar, il vit et travaille actuellement à Nantes. Depuis 2001, Laurent Tixador participe régulièrement à des expositions monographiques et collectives, en France et à l’étranger (CAPC, MAC Marseille, Espace Paul Ricard, Confort Moderne, Frac Réunion, Biennale de Belleville 2014…). En 2013, il est lauréat du Prix COAL Art et Environnement. Laurent Tixador se distingue par des actions ou il se met à l’épreuve de situations aussi extrêmes que décalées. Aventurier de l’art, ses projets ont un propos utopique et ses actions sont souvent extrêmes, il a ainsi entrepris plusieurs expéditions au Groenland, avant de devenir le premier artiste à atteindre le pôle Nord.
+(image: poinchevaltixador-1.jpg)
+
+## 18.00 – 20.00 Round table conference
+The session will focus on the element of time within a process of ecological, economical and social transition. The three speakers will highlight three fundamental ingredients of this delicate transition moment in time: the powerful and disruptive ideas of the philosopher Timothy Morton, the inspiring and highly human creative  forms described by the writer and theatre maker Lucy Neal and the more concrete but sensitive stories analysed by Philippe Schiesser. Timothy Morton will clarify his concept of “hyperobjects” and how these not only become visible during our time of ecological crisis, but are also capable of alerting humans to the ecological dilemmas by defining the age in which they live. Lucy Neal, activist in the grassroots Transition movement, will focus on her investigation on the role of creativity and imagination in inventing new ways of  living. Philippe Schiesser, also active in the transition movement in the city of Montreuil, will share his experience on how to create a more sustainable community capable of sharing resources, material and knowledge on different scales by using, among others, sharable technologies and setting up fab labs.
+(image: affiches-1701.jpg)
+
+----
+
+Last: 
+
+## Timothy Morton
+Philosopher, author of *Hyperobjects: Philosophy and Ecology after the End of the World* and Rita Shea Guffey Chair at Rice University.
+
+Having set global warming in irreversible motion, we are facing the possibility of ecological catastrophe. But the environmental emergency is also a crisis for our philosophical habits of thought, confronting us with a problem that seems to defy not only our control but also our understanding. Global warming is perhaps the most dramatic example of what Timothy Morton calls “hyperobjects”—entities of such vast temporal and spatial dimensions that they defeat traditional ideas about what a thing is in the first place. In this talk, Morton draws on the book *Hyperobjects: Philosophy and Ecology after the End of the World* (Minnesota, 2013) to explain what hyperobjects are and their impact on how we think, how we coexist with one another and with nonhumans, and how we experience our politics, ethics, and art.
+
+## Lucy Neal
+Instigator, theatre maker and educator, member of the Transition Towns Movement.
+
+Lucy Neal will present her new, groundbreaking handbook, a resource for artists, community activists and anyone wishing to reach beyond the facts and figures of science and technology to harness their creativity to make change in the world. This timely book explores the pivotal role artists play in re-thinking the future; re-inventing and re-imagining our world at a time of systemic change and uncertainty. Playing for Time identifies collaborative arts practices emerging in response to planetary challenges, reclaiming a traditional role for artists in the community as truth-tellers and agents of change.
+
+Sixty experienced artists and activists give voice to a new narrative – shifting society’s rules and values away from consumerism and commodity towards community and collaboration with imagination, humour, ingenuity, empathy and skill. Inspired by the grass-roots Transition movement, modelling change in communities worldwide, Playing for Time joins the dots between key drivers of change – in energy, finance, climate change, food and community resilience – and ‘recipes for action’ for readers to take and try.
+
+## Philippe Schiesser
+
+Founder of the sustainable design consultancy Ecoeff, president of APEDEC, the Ecodesign Fablab in Montreuil, professor at the University of Cergy Pontoise, department of Geosciences and Environment.
