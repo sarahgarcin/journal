@@ -1,7 +1,7 @@
 <div class="ressources">
-  <h1>Ressources</h1>
+  <h1><?php echo $page->find('ressources')->title()?></h1>
   <?php
-  $ressources = $page->find('ressources')->children();
+  $ressources = $page->find('ressources')->children()->visible();
   $ressoucesArr = $ressources->toArray();
   $size = $ressources->count();
  //print_r($ressoucesArr);?>

@@ -1,0 +1,17 @@
+Title: Titre du journal
+
+----
+
+Jour: Jour 01
+
+----
+
+Date: 2016-08-02
+
+----
+
+Postimage: jour1.png
+
+----
+
+Subtitle: Sous titre

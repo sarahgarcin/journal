@@ -10,5 +10,8 @@
     "font-awesome": "fontawesome#~4.4.0",
     "foundation": "~5.5.3",
     "velocity": "~1.2.3"
+  },
+  "dependencies": {
+    "packery": "^1.4.3"
   }
 }

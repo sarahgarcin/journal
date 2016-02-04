@@ -6,12 +6,12 @@
   ?>
   <ul>
     <?php for($i=0; $i<$size/2; $i++){?>
-      <li class="image-item <?php echo $page->find("images")->taille() ?>">
+      <li class="image-item <?php echo $images[$i]['meta']['taille']?>">
         <figure>  
           <img src="<?php echo $images[$i]['url'] ?>" alt="<?php echo $images[$i]['title']?>">
             <figcaption>
               <div class="caption">
-                <?php echo $images[$i]['caption'] ?>
+                <?php echo $images[$i]['meta']['caption'] ?>
               </div>
             </figcaption>
         </figure>

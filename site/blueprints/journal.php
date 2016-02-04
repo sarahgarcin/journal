@@ -1,11 +1,14 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Page
+title: Journal
 pages: true
 files: true
 fields:
   title:
     label: Titre
+    type:  text
+  subtitle:
+    label: Sous-titre
     type:  text
   jour:
     label: Jour
@@ -13,6 +16,9 @@ fields:
   date:
     label: Date
     type:  date
-  authors:
-    label: auteurs
-    type:  text
+  postimage:
+    label: Image de fond
+    type:  selector
+    mode:  single
+    types:
+      - image

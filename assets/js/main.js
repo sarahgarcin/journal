@@ -5,12 +5,16 @@ $(document).ready(function(){
 });
 
 function init(){
-	var bigImgUrl = $(".big-image").attr('data-image');
-	// $('.big-image').css({
-	// 	'background': 'url('+bigImgUrl+')',
-	// 	'background-repeat': 'no-repeat',
-	// 	'background-size': 'cover'
-	// });
+
+	var $container = $('.images ul');
+	$(window).load(function(){
+		// init
+		$container.packery({
+		  itemSelector: 'li',
+		  gutter: 10
+		});
+	})
+
 
 
 

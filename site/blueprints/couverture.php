@@ -8,5 +8,8 @@ fields:
     label: Titre
     type:  text
   text:
-    label: Texte
+    label: Texte Français
+    type:  markdown
+  english:
+    label: Texte Anglais
     type:  markdown

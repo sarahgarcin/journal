@@ -6814,7 +6814,17 @@ li {
 
 figure {
   width: 80%;
-  margin: 1cm auto; }
+  margin: 1cm auto;
+  position: relative; }
+  figure figcaption {
+    position: absolute;
+    left: -5px;
+    top: 0px;
+    font-size: 6pt;
+    transform: rotate(90deg);
+    transform-origin: left top 0;
+    float: left;
+    width: 150px; }
 
 img {
   max-width: 100%;
@@ -6843,6 +6853,41 @@ img {
         position: absolute;
         top: 0;
         left: 50%; }
+
+.titre {
+  position: relative;
+  z-index: 2; }
+  .titre h1 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 18pt; }
+  .titre .date {
+    position: absolute;
+    top: 0;
+    right: 0; }
+  .titre .subtitle {
+    margin-bottom: 40px; }
+
+.couverture .cover-image {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  opacity: 0.5;
+  z-index: 1;
+  width: 50%;
+  height: 29.7cm;
+  overflow: hidden; }
+  .couverture .cover-image img {
+    width: 100%;
+    height: 100%; }
+
+.couverture .text {
+  position: relative;
+  z-index: 2; }
+  .couverture .text.english {
+    margin-top: 1cm;
+    margin-left: 4cm; }
 
 .programme.middle {
   height: 29.7cm;
@@ -6879,12 +6924,18 @@ img {
 .images .image-item {
   display: inline-block;
   width: 20%;
-  vertical-align: top; }
+  vertical-align: top;
+  margin: 0 10px 20px 10px; }
+  .images .image-item figure {
+    width: 100%;
+    margin: 0; }
   .images .image-item.w1 {
-    width: 48%; }
+    width: 70%; }
   .images .image-item.w2 {
-    width: 30%; }
+    width: 48%; }
   .images .image-item.w3 {
+    width: 30%; }
+  .images .image-item.w4 {
     width: 20%; }
 
 .ressources .ressource-item {
@@ -6918,16 +6969,7 @@ img {
     margin-top: 0cm;
     margin: 0 !important;
     padding: 0 !important; }
-  h1, h2, h3, h4, h5, h6 {
-    page-break-after: avoid;
-    page-break-inside: avoid;
-    page-break: none; }
-  p {
-    page-break-inside: avoid;
-    page-break-before: avoid; }
-  img {
-    page-break-inside: avoid; }
-  .img-wrapper {
-    page-break-before: always; }
   .journal .double-page {
-    margin: 0; } }
+    margin: 0; }
+    .journal .double-page .page {
+      border: none !important; } }
